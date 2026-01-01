@@ -114,7 +114,7 @@ function handleEvents() {
 function main() {
     running = true;
 
-    setupUi();
+    run setupUi();
     if (!running) return;
 
     while (running) {
